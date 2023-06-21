@@ -1,0 +1,39 @@
+@import '../../assets/fontawesome/css/all.min.css';
+
+:host {
+  display: block;
+}
+
+:host h4{
+
+  margin-left: 1200px;
+ 
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.row h4,span{
+ display: inline;
+}
+
+.series img{
+  width: 300px;
+ display: grid;
+ margin: 7px;
+ max-height: 350px;
+
+}
+.box-content{
+  position: absolute;
+  top: 470px;
+  margin: 10px;
+  
+}
+
+
+

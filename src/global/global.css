@@ -1,0 +1,36 @@
+
+
+body{
+    background-image: url('../assets/images/bg4.jpg');
+  }
+  
+#side-btn{
+    position: absolute;
+    right:0;
+    top:0;
+    margin: 10px;
+    z-index: 100;
+   background: transparent;
+   border: 1px solid white;
+   color: tomato;
+  /*  display: none;*/
+  }
+  #side-btn:hover{
+    color: black;
+  }
+
+
+  
+.error {
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  color: red;
+  font-weight: 500;
+  display: none;
+  background-color: rgb(46, 46, 46);
+  letter-spacing: 2px;
+}
+
+
+  

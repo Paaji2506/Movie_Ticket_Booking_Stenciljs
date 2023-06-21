@@ -1,0 +1,73 @@
+:host {
+  display: block;
+}
+
+table{
+
+   border: 1px solid white;
+    text-align: center;
+    margin: 100px;
+
+
+}
+table th{
+  background-color: black;
+  color:wheat;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid wheat; 
+  
+
+}
+table td{
+  background-color: tomato;
+  color: black;
+  font-weight: bold;
+ padding: 20px;
+ text-align: center;
+ border: 2px solid wheat; 
+
+ 
+  
+}
+table a{
+  text-decoration: none;
+  cursor: pointer;  
+  color: white;
+}
+
+
+h1{
+  font-weight: bold;
+  color: black;
+  margin-left: 400px;
+}
+label{
+  color: black;
+  font-size: 25px;
+
+}
+.regbtn
+{
+  background-color: tomato;
+  color:#fff;
+  cursor: pointer;
+  border: 1px solid tomato;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.regbtn:hover,
+.regbtn:active{
+  background-color: red;
+  color: black;
+}
+
+select{
+  width: 200px;
+  height: 30px;
+  margin: 30px;
+}

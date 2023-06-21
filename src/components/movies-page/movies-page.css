@@ -1,0 +1,52 @@
+:host {
+  display: block;
+}
+
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.row h4,span{
+ display: inline;
+}
+
+.series img{
+  width: 240px;
+ display: grid;
+ margin: 5px;
+ max-height: 280px;
+
+}
+
+.row h3{
+  display: inline;
+}
+
+.row button {
+   
+   padding: 5px;
+   background-color: green;
+   border: 1px solid green;
+   border-radius: 10px;
+   width: 50px;
+   color: white;
+   
+}
+
+
+.row button:hover,
+.row button:active {
+ color:black;
+ cursor: pointer;
+ background-color: darkgreen;
+  
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>MoviesAdda</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/b97b14d6fa.js" crossorigin="anonymous"></script>
+     
+    <link rel="stylesheet" href="./build/moviesadda.css">
+
+    <script type="module" src="/build/moviesadda.esm.js"></script>
+    <script nomodule src="/build/moviesadda.js"></script>
+  </head>
+  <body>
+    
+       <ma-header>
+        <div class="error" slot="errorslot"></div>
+        <button id="side-btn" >
+          <i class="bi bi-person-lines-fill"></i>
+        </button>
+        <uc-side-drawer></uc-side-drawer>
+
+      </ma-header> 
+
+
+     <app-root></app-root>
+
+
+
+
+     <ma-footer></ma-footer>
+
+
+      <script>
+      const sidebtn = document.querySelector('#side-btn');
+      const drawer = document.querySelector('uc-side-drawer');
+      sidebtn.addEventListener('click', () => {
+            if(!drawer.opened){
+             // drawer.open=true;
+             drawer.open();
+            }
+      });
+      </script>
+  </body>
+</html>

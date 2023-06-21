@@ -1,0 +1,144 @@
+@import '../../assets/fontawesome/css/all.min.css';
+
+:host{
+  font-family: sans-serif;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+  margin: 2rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  width: 60%;
+  max-width: 100%;
+  position: relative;
+  left: 270px;
+
+
+}
+:host(.error){
+  border-color: red;
+}
+
+
+
+
+form input{
+font: inherit;
+color: #390039;
+padding: 0.15rem 0.25rem;
+display: block;
+margin-bottom: 0.5rem;
+margin: 10px;
+width: 170px;
+}
+
+form button{
+  font:inherit;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid tomato;
+  background-color:tomato;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+form button:hover,
+form button:active {
+  background-color:rgb(166, 38, 15);
+  border-color:rgb(166,38, 15);
+
+}
+h1{
+  margin-left: 80px;
+}
+
+form button:disabled{
+background-color: lightgrey;
+border-color: lightgray;
+color: white;
+cursor: not-allowed;
+}
+
+form label{
+  font-weight: bold;
+}
+
+span{
+  color: tomato;
+  margin-top: 40px;
+  
+  font-weight: bold;
+}
+
+
+.direct{
+  width: 100%;
+  height: 100%;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  background-color: tomato;
+  color:black; 
+  text-align: center;
+ 
+}
+.direct h1{
+  margin-top: 80px;
+
+}
+
+.direct button{
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+  text-decoration: none;
+}
+
+.direct button:active,
+.direct button:hover {
+  background-color:rgb(166, 38, 15);
+  border-color:rgb(166,38, 15);
+
+}
+
+a{
+   margin: 40px;
+   color: blue;
+   border: 1px solid blue;
+   border-radius: 20px 20px;
+   padding: 5px;
+}
+
+a:hover{
+  color: black;
+}
+
+.fpsw{
+  color: tomato;
+  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+
+  
+.error {
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  color: red;
+  font-weight: 500;
+  display: none;
+  background-color: rgb(46, 46, 46);
+  letter-spacing: 2px;
+}

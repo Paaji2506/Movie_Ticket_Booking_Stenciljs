@@ -1,0 +1,68 @@
+@import '../../assets/fontawesome/css/all.min.css';
+
+ .below-section {
+
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    color:white;
+    background: rgb(66, 65, 65);
+    z-index: 1;
+  }
+
+  .below-section li{
+    display: inline-block;
+
+  }
+  .social-text a{
+    text-decoration: none;
+    color: tomato;
+  }
+
+  .social-text span{
+   height: 80px;
+   width: 80px;
+   text-decoration: none;
+
+  }
+  h4{
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row img{
+    display: grid;
+    max-width: 200px;
+    float: left;
+    margin: 50px;
+  }
+
+  .row ul{
+    list-style: none;
+  }
+
+  .row a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+  }
+
+
+  .footpart{
+     background-color: black;
+
+  }

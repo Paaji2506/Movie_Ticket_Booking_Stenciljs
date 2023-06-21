@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+.content{
+  margin-left: 250px;
+}
+
+.content h2{
+  color:black;
+  margin-left: 230px;
+}
+
+.content .front{
+ background-color: tomato;
+ width: 500px;
+ height: 50px;
+ border-radius: 20px 20px 0px 0px;
+ text-align: center;
+ color:white;
+ margin-left: 70px;
+}
+
+.booking-details{
+  margin-left: 650px;
+  display: flex;
+}
+
+.booking-details ul{
+  list-style: none;
+}
+
+.nxtbtn{
+  background-color: black;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  color: white;
+  width: 70px;
+  border-radius: 10px;
+  
+}
+
+
+
+button{
+  background-color:gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 20px;
+  width: 25px;
+  color:white;
+
+  
+}
+
+button:hover,
+button:active{
+  background-color: green;
+}
+

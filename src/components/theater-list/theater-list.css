@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+table{
+
+   border: 1px solid white;
+    text-align: center;
+
+
+}
+table th{
+  background-color: black;
+  color:wheat;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid wheat; 
+  
+
+}
+table td{
+  background-color: tomato;
+  color: black;
+  font-weight: bold;
+ padding: 20px;
+ text-align: center;
+ border: 2px solid wheat; 
+
+ 
+  
+}
+table a{
+  text-decoration: none;
+  cursor: pointer;  
+  color: white;
+}
+.tableview{
+ margin-left: 70px;
+
+}

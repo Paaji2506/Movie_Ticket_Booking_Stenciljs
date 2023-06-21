@@ -1,0 +1,34 @@
+:host {
+  display: block;
+}
+
+.container{
+  background-color: wheat;
+  width: 280px;
+  height: 450px;
+  margin: 50px;
+  margin-left: 450px;
+  padding: 5px;
+}
+
+img{
+  width:200px;
+  
+}
+
+ul{
+  list-style: none;
+}
+
+.booking-details{
+  display: flex;
+
+}
+
+.booking-details ul{
+  list-style: none;
+}
+
+.book-left{
+  font-weight: bold;
+}

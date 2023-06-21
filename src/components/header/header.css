@@ -1,0 +1,65 @@
+@import '../../assets/fontawesome/css/all.min.css';
+
+  .topnav {
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    height: 80px;
+    background-color: #fff;
+  }
+ .navtitle{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    
+   
+ }
+ .navtitle a{
+  text-decoration: none;
+  color: black;
+ }
+
+ .navbody{
+    display: inline-block;
+    margin-left: 600px;
+    text-align: center;
+ }
+
+
+  
+  .navbody a {
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  
+  .topnav a:hover {
+    color: tomato;
+  }
+
+    
+  #side-btn{
+    position: absolute;
+    right:0;
+    top:0;
+    margin: 10px;
+    z-index: 100;
+   background: transparent;
+   border: 1px solid white;
+   color: tomato;
+  /*  display: none;*/
+  }
+  #side-btn:hover{
+    color: black;
+  }
+
+
+  span{
+    color: blueviolet;
+  }
